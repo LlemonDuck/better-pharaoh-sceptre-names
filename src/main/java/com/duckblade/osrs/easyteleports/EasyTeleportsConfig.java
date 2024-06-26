@@ -359,6 +359,18 @@ public interface EasyTeleportsConfig extends Config
 		return "Ferox Enclave";
 	}
 
+	@ConfigItem(
+		keyName = "replacementFortisColosseum",
+		name = "Fortis Colosseum",
+		description = "Replace Fortis Colosseum",
+		section = SECTION_RING_OF_DUELING,
+		position = POSITION_RING_OF_DUELING + 4
+	)
+	default String replacementFortisColosseum()
+	{
+		return "Colosseum";
+	}
+
 	@ConfigSection(
 		name = "Achievement Diary Cape",
 		description = "Replacement text for the Achievement diary cape teleport locations.",
