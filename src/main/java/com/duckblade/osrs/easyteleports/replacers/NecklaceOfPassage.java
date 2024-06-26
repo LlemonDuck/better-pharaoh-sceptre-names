@@ -36,7 +36,7 @@ public class NecklaceOfPassage implements Replacer
 
 		replacements.clear();
 		replacements.add(new TeleportReplacement("Wizards' Tower", config.replacementWizardsTower()));
-		replacements.add(new TeleportReplacement("The Outpost", config.replacementOutput()));
+		replacements.add(new TeleportReplacement("The Outpost", config.replacementOutpost()));
 		replacements.add(new TeleportReplacement("Eagle's Eyrie", config.replacementEagleEyrie()));
 	}
 
